@@ -1,0 +1,1 @@
+{"Porto":{"TempMax":17,"TempMin":15,"Wind":5.7,"Description":"clear sky","AtualTemp":16},"Lisboa":{"TempMax":18,"TempMin":15,"Wind":4.6,"AtualTemp":17,"Description":"clear sky"}}
