@@ -2,7 +2,7 @@ Arguments:
   C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
 
 PATH: 
-  C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Users\MySystem\AppData\Local\Microsoft\WindowsApps;C:\Users\MySystem\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\3.6\bin;C:\Users\MySystem\AppData\Local\Yarn\bin;C:\Program Files\heroku\bin;;C:\Users\MySystem\AppData\Local\Programs\Microsoft VS Code\bin
+  C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Users\MySystem\AppData\Local\Microsoft\WindowsApps;C:\Users\MySystem\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\3.6\bin;C:\Users\MySystem\AppData\Local\Yarn\bin;C:\Program Files\heroku\bin;C:\Users\MySystem\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\MySystem\AppData\Local\GitHubDesktop\bin
 
 Yarn version: 
   1.5.1
@@ -67,7 +67,7 @@ Trace:
   Exit code: 1
   Command: C:\WINDOWS\system32\cmd.exe
   Arguments: /d /s /c node index.js
-  Directory: F:\testegocontact
+  Directory: F:\Gocontactt\testegocontact
   Output:
   
       at ProcessTermError.MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)

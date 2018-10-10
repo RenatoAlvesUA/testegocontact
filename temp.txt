@@ -1,1 +1,1 @@
-{"Porto":{"TempMin":20,"TempMax":20,"Wind":6.7,"Description":"clear sky","AtualTemp":20},"Lisboa":{"Description":"scattered clouds","TempMax":21,"Wind":8.2,"TempMin":21,"AtualTemp":21}}
+{"Guarda":{"TempMin":19,"TempMax":19,"Wind":6.02,"AtualTemp":19,"Description":"clear sky"},"Algarve":{"TempMin":22,"AtualTemp":22,"Description":"overcast clouds","TempMax":22,"Wind":4.1},"Alentejo":{"AtualTemp":20,"TempMax":20,"TempMin":20,"Wind":2.97,"Description":"few clouds"}}
