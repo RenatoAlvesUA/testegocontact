@@ -1,1 +1,1 @@
-{"Porto":{"TempMin":15,"Wind":5.7,"TempMax":17,"AtualTemp":16,"Description":"clear sky"},"Lisboa":{"Wind":4.6,"TempMin":15,"TempMax":18,"AtualTemp":17,"Description":"clear sky"}}
+{"Porto":{"TempMin":11,"Wind":4.6,"TempMax":15,"AtualTemp":12,"Description":"clear sky"},"Aveiro":{"TempMax":15,"Description":"clear sky","TempMin":11,"AtualTemp":13,"Wind":4.6},"Lisboa":{"Wind":2.1,"AtualTemp":16,"Description":"clear sky","TempMin":16,"TempMax":17}}

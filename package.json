@@ -34,7 +34,7 @@
     "youtube-node": "^1.3.2"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "heroku-postbuild": "cd client && yarn && yarn run build"
   },
   "devDependencies": {}

@@ -136,53 +136,6 @@ confirmCities(){
             </ValidatorForm>
           </form></div></div>
     )
-
-    return (
-      <div className="container-contact100">
-        <div className="wrap-contact100">
-          <form className="contact100-form validate-form">
-            <span className="contact100-form-title">
-              Get in Touch
-                </span>
-            <div className="wrap-input100 validate-input" data-validate="Name is required">
-              <input className="input100" id="name" type="text" name="name" placeholder="Name" />
-              <label className="label-input100" htmlFor="name">
-                <span className="lnr lnr-user" />
-              </label>
-            </div>
-            <div className="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-              <input className="input100" id="email" type="text" name="email" placeholder="Email" />
-              <label className="label-input100" htmlFor="email">
-                <span className="lnr lnr-envelope" />
-              </label>
-            </div>
-            <div className="wrap-input100 validate-input" data-validate="Phone is required">
-              <input className="input100" id="phone" type="text" name="phone" placeholder="Phone" />
-              <label className="label-input100" htmlFor="phone">
-                <span className="lnr lnr-phone-handset" />
-              </label>
-            </div>
-            <div className="wrap-input100 validate-input" data-validate="Message is required">
-              <textarea className="input100" name="message" placeholder="Your message..." defaultValue={""} />
-            </div>
-            <div className="contact100-form-checkbox">
-              <input className="input-checkbox100" id="ckb1" type="checkbox" name="copy-mail" />
-              <label className="label-checkbox100" htmlFor="ckb1">
-                Send copy to my-email
-                  </label>
-            </div>
-            <div className="container-contact100-form-btn">
-              <div className="wrap-contact100-form-btn">
-                <div className="contact100-form-bgbtn" />
-                <button className="contact100-form-btn">
-                  Send Email
-                    </button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    )
   }
 }
 
