@@ -19,9 +19,7 @@ module.exports = (app) => {
             weather
         } = body;
 
- f();
 
-        async function f() {
             let promise = new Promise((resolve, reject) => {
                 var data = {};
                 for (let i = 0; i < weather.length; i++) {
@@ -65,6 +63,5 @@ module.exports = (app) => {
                     err: err
                 })
             });
-        }
     })
 }
