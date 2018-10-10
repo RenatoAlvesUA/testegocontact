@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
-import { TextValidator, ValidatorForm } from 'react-material-ui-form-validator';
-import DropDownMenu from 'material-ui/DropDownMenu';
-import MenuItem from 'material-ui/MenuItem';
-import { Button } from 'reactstrap';
 import Chart from "react-google-charts";
-import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 
 class Graph extends Component {
   constructor(props) {
@@ -29,16 +24,19 @@ class Graph extends Component {
       }
     }
     delete data["Description"];
+    console.log(data,'Organizado por categorias')
+
     const graphs = []
     for (let i in data) {
       if (!graphs[i]) {
         graphs[i] = [["País", i, { role: "style" }]];
       }
       for (let d in data[i]) {
-
         graphs[i].push([d, data[i][d], "color: gray"])
       }
     }
+    console.log(graphs,'Array no formato para api google charts')
+
     this.setState({
       graphs: graphs,
       loading: true
@@ -52,7 +50,7 @@ class Graph extends Component {
         data.push(<Chart graph_id={i} key={i} chartType="BarChart" width="100%" height="400px" data={this.state.graphs[i]} />)
       };
 
-      return (<div class="row">
+      return (<div className="row">
         {data}
       </div>
       )

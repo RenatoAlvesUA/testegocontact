@@ -1,1 +1,1 @@
-{"Porto":{"TempMin":11,"Description":"clear sky","TempMax":15,"AtualTemp":12,"Wind":4.1},"Aveiro":{"Description":"clear sky","Wind":1,"TempMin":10,"TempMax":16,"AtualTemp":13},"Braga":{"Description":"clear sky","Wind":4.1,"TempMin":16,"TempMax":16,"AtualTemp":16}}
+{"Guarda":{"Description":"clear sky","AtualTemp":19,"TempMax":19,"Wind":4.76,"TempMin":19},"Beja":{"Wind":4.6,"TempMin":22,"Description":"scattered clouds","TempMax":22,"AtualTemp":22}}

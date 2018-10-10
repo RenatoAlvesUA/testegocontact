@@ -1,11 +1,7 @@
-import React, {Component} from 'react';
-import { TextValidator, ValidatorForm } from 'react-material-ui-form-validator';
+import React, { Component } from 'react';
 import Form from "./Form.js"
-import Card_Weather from "./Card_Weather.js"
+import CardWeather from "./CardWeather.js"
 import Graph from "./Graph.js"
-
-//const queryString = require('query-string');
-
 
 class index extends Component {
     constructor(props) {
@@ -15,28 +11,28 @@ class index extends Component {
         };
     }
 
-    
-   
+
+
 
     render() {
-      const {
-        citys,
-    } = this.state;
-    console.log(citys)
-    if(citys){
-      return(<div>
-      <Card_Weather cities={citys} />
-      <Graph cities={citys}/>
-      </div>
-      )
-      }
+        const {
+            citys,
+        } = this.state;
 
-        
+        if (citys) {
+            console.log(citys,'Array retornado node')
+            return (<div>
+                <CardWeather cities={citys} />
+                <Graph cities={citys} />
+            </div>
+            )
+        }
+
         return (
-           <div>
-              <Form setValues={(cities) => this.setState({citys: cities})}/>
-           </div>
-               )
+            <div>
+                <Form setValues={(cities) => this.setState({ citys: cities })} />
+            </div>
+        )
     }
 }
 
